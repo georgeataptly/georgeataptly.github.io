@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+body {
+    background-image: url('../graphics/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: black;
+}
+
+.bird-x {
+    width: min-content;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    animation-timing-function: linear;
+}
+
+.bird-r {
+    position: relative;
+    top: 30%;
+    animation-timing-function: cubic-bezier();
+}
+
+.bird-y {
+    position: relative;
+    top: 30%;
+    content: url('../graphics/bird_wings_up.svg');
+    animation-timing-function: cubic-bezier();
+}
